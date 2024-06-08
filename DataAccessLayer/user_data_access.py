@@ -18,7 +18,7 @@ class UserDataAccess:
                        password
                 FROM User""").fetchall()
             for item in data:
-                usernames.append(item[4])
+                usernames.append(item[3])
             return usernames
 
     def create_account(self, firstname, lastname, username, password):
