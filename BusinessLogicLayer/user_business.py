@@ -24,7 +24,7 @@ class UserBusiness:
         if len(username) < 3:
             return [None, "Length should be least 3"]
         for item in usernames:
-            if usernames == item:
+            if username == item:
                 return [None, "Duplicate Username"]
 
         if len(password) < 6:
