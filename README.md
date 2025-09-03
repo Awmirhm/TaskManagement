@@ -81,16 +81,23 @@ Task Management Menu:
 5. Sort Tasks
 6. Exit
 (Optional: Add a screenshot or ASCII diagram of the CLI interface here for better visualization.)
-Project Structure
-textTaskManagement/
-├── controllers/    # Handles business logic (MVC Controller)
-├── models/         # Defines data structures and database interactions (MVC Model)
-├── views/          # Manages command-line interface output (MVC View)
-├── .venv/          # Virtual environment with required libraries
-├── main.py         # Entry point of the application
-├── database.db     # SQLite database file (auto-generated if not present)
-└── README.md       # Project documentation
-Contributing
+# Project Structure
+# textTaskManagement/
+├── controllers/
+## Handles business logic (MVC Controller)
+├── models/
+## Defines data structures and database interactions (MVC Model)
+├── views/
+## Manages command-line interface output (MVC View)
+├── .venv/
+## Virtual environment with required libraries
+├── main.py
+## Entry point of the application
+├── database.db
+## SQLite database file (auto-generated if not present)
+└── README.md
+## Project documentation
+# Contributing
 We welcome contributions to improve this project! To contribute:
 
 Fork the repository.
