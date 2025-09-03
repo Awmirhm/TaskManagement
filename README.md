@@ -109,7 +109,9 @@ Open a pull request.
 Please read our Contributing Guide for more details (if available).
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
+
+# Contact
 
 Author: Amir (Awmirhm)
+
 GitHub: Awmirhm
